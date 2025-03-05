@@ -95,3 +95,5 @@ const resources = [
         ]
     },
 ]
+
+console.log("Resources file is loaded!");

@@ -1,12 +1,19 @@
-import Nav from "./Nav"
+import React, { Children } from "react"
+import Nav from "./Nav.jsx"
+import PageTitle from "./Pagetitle.jsx"
 
-const layout = ({ children }) => {
+const Layout = ({ category, Children}) => {
     return (
-        <div> 
-            <Nav />
-            <main>{children}</main>
+        <div>
+            <header>
+                <Nav />
+                <PageTitle category={category} />
+            </header>
+            <main>
+                {children}
+            </main>
         </div>
     )
-};
+}
 
-export default layout
+export default Layout
