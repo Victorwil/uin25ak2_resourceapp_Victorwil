@@ -1,8 +1,8 @@
-import React, { Children } from "react"
-import Nav from "./Nav.jsx"
+import React from "react"
+import Nav from "./Nav" 
 import PageTitle from "./Pagetitle.jsx"
 
-const Layout = ({ category, Children}) => {
+const Layout = ({ category, children}) => {
     return (
         <div>
             <header>
