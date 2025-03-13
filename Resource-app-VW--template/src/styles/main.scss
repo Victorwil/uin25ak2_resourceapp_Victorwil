@@ -1,22 +1,25 @@
+// Styling for navigasjonsmenyen
 nav {
-    background: #333;
-    padding: 1rem;
+    background: #333; // Mørk bakgrunnsfarge
+    padding: 1rem; // Gir litt avstand rundt innholdet
+    
+
 
 
     ul{
-        list-style: none;
-        display: flex;
-        gap: 1rem;
+        list-style: none; //Fjerner punktmerking på listen
+        display: flex; //Viser elementene horisontalt
+        gap: 1rem; //Legger mellomrom mellom listeelementene
 
     
 
     li{
         a{
-            color: white;
-            text-decoration: none;
+            color: white; //Hvit tekstfarge for lenkene
+            text-decoration: none; //Fjerner understrekning på lenkene
 
             &:hover {
-                text-decoration: underline;
+                text-decoration: underline; //Understreker lenken ved hover
             }
         }
       }

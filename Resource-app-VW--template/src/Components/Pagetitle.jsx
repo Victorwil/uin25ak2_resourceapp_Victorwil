@@ -1,5 +1,7 @@
 import React from "react"
+//Importerer React for å kunne bruke JSX og komponenter
 
+//Definerer pagetitle 
 const PageTitle = ({ category }) => {
     const titles = {
         html: "HTML resources",
@@ -14,6 +16,7 @@ const PageTitle = ({ category }) => {
     )
 }
 
+//Eksporterer pageitlte slik at den kan brukes
 export default PageTitle;
 
 

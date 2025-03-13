@@ -1,6 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+//Importerer React for å kunne bruke JSX og komponenter
 
+import { Link } from "react-router-dom";
+//Importerer nødvendige moduler fra react routing
+
+//Definerer Nav
 const Nav = () => {
     return (
         <nav>
@@ -15,4 +19,5 @@ const Nav = () => {
     )
 }
 
+//Eksporterer nav slik at den kan brukes i andre filer
 export default Nav;

@@ -1,7 +1,13 @@
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom" 
-import Layout from "./Layout.jsx"
-import Resources from "./Resources.jsx"
+//Importerer nødvendige moduler fra react routing
 
+import Layout from "./Layout.jsx"
+//Importerer layout komponenten
+
+import Resources from "./Resources.jsx"
+//importerer resources komponenten som viser innhold basert på kategori
+
+//definerer komponenten app
 const App = () => {
     return (
         <Router>
@@ -19,4 +25,5 @@ const App = () => {
     )
 } 
 
+//Eksporterer app komponenten slik at den kan brukes i andre filer
 export default App
